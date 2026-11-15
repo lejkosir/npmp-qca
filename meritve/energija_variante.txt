@@ -1,0 +1,21 @@
+# Coherence Vector (w/ Energy), privzete nastavitve, GUI, 2026-11-15. Vrstni red: remove_03, remove_05, shift_03_up_1nm
+## remove_03.qca  (5 iteracij do zač. stanja, 22 s)
+E_bath_total:    1,6925e-003    1,3535e-003    1,1175e-003    1,5893e-003    1,2713e-003    1,1069e-003    8,1892e-004    1,7153e-003    9,7935e-004    4,8869e-004    6,0285e-004
+E_clk_total:    3,2351e-003    2,1581e-003    1,0334e-003    2,1762e-003    2,1549e-003    1,0647e-003    1,5635e-003    2,1762e-003    1,0334e-003    3,3295e-004    3,1103e-004
+E_Error_total:    -1,7678e-004     -1,3893e-004     -1,1223e-004     -1,6449e-004     -1,2952e-004     -1,1092e-004     -7,8959e-005     -1,7862e-004     -9,6917e-005     -4,2063e-005     -5,4766e-005
+Total energy dissipation (Sum_Ebath): 1,27e-002 eV (Error: +/- -1,28e-003 eV)
+Average energy dissipation per cycle (Avg_Ebath): 1,16e-003 eV (Error: +/- -1,17e-004 eV)
+
+## remove_05.qca  (6 iteracij, 30 s)
+E_bath_total:    1,1186e-003    9,5020e-004    8,8748e-004    2,1261e-003    8,0188e-004    7,5136e-004    1,5007e-003    2,1988e-003    6,3318e-004    5,8094e-004    1,3330e-003
+E_clk_total:    3,6722e-003    2,3191e-003    1,5728e-003    1,5922e-003    2,5114e-003    1,1625e-003    7,7260e-004    1,5922e-003    1,5728e-003    2,2516e-004    -1,8116e-004
+E_Error_total:    -1,1176e-004     -9,2853e-005     -8,5137e-005     -2,2324e-004     -7,5842e-005     -7,0016e-005     -1,5354e-004     -2,3131e-004     -5,6917e-005     -5,0904e-005     -1,3463e-004
+Total energy dissipation (Sum_Ebath): 1,29e-002 eV (Error: +/- -1,29e-003 eV)
+Average energy dissipation per cycle (Avg_Ebath): 1,17e-003 eV (Error: +/- -1,17e-004 eV)
+
+## shift_03_up_1nm.qca  (16 iteracij, 26 s)
+E_bath_total:    1,0307e-003    8,4634e-004    7,8686e-004    1,7399e-003    7,2222e-004    6,1778e-004    1,3145e-003    1,7607e-003    5,3850e-004    4,2906e-004    1,2220e-003
+E_clk_total:    3,3047e-003    2,1923e-003    1,3709e-003    2,0949e-003    2,2991e-003    1,1685e-003    1,0291e-003    2,0949e-003    1,3709e-003    2,7226e-004    -2,9550e-004
+E_Error_total:    -1,0239e-004     -8,1758e-005     -7,4313e-005     -1,8046e-004     -6,7409e-005     -5,5485e-005     -1,3312e-004     -1,8282e-004     -4,6754e-005     -3,4442e-005     -1,2270e-004
+Total energy dissipation (Sum_Ebath): 1,10e-002 eV (Error: +/- -1,08e-003 eV)
+Average energy dissipation per cycle (Avg_Ebath): 1,00e-003 eV (Error: +/- -9,83e-005 eV)

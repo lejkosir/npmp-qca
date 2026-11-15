@@ -1,0 +1,11 @@
+# MV5 (control.qca), Coherence Vector (w/ Energy), privzete nastavitve, 2026-11-15, zagon 3
+********* Energy Dissipation in eV ********** 
+
+E_bath_total:    1,0690e-003    8,8364e-004    8,1890e-004    1,7989e-003    7,5366e-004    6,8464e-004    1,4609e-003    1,8608e-003    5,6965e-004    4,9639e-004    1,2816e-003    
+E_clk_total:    3,7117e-003    2,3892e-003    1,6412e-003    1,9762e-003    2,5440e-003    1,2247e-003    7,8441e-004    1,9762e-003    1,6412e-003    3,2604e-004    -1,3343e-004    
+E_Error_total:    -1,0553e-004     -8,4781e-005     -7,6801e-005     -1,8602e-004     -6,9803e-005     -6,1870e-005     -1,4844e-004     -1,9291e-004     -4,9143e-005     -4,0843e-005     -1,2820e-004     
+
+Total energy dissipation (Sum_Ebath): 1,17e-002 eV (Error: +/- -1,14e-003 eV)
+Average energy dissipation per cycle (Avg_Ebath): 1,06e-003 eV (Error: +/- -1,04e-004 eV)
+********************************************************
+Total simulation time: 23 s
