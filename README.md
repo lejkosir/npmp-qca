@@ -21,6 +21,7 @@ kombinacij) in jo primerjamo z brezhibnimi vrati:
 | `sweep.py` | generira okvarjene različice, jih simulira in zapiše `manifest.json` |
 | `analyze.py` | iz rezultatov izračuna `segments.csv`, `summary.csv` in `report.md` |
 | `reproduce.ps1` | ponovi vse poskuse (semena 1, 2 in 3) |
+| `plot.py` | izriše grafa za poročilo (PDF) iz `summary.csv` |
 
 Izvorna koda QCADesigner-E ni v repozitoriju. `engine/build.sh` jo ob prvem zagonu prenese z
 [GitHuba](https://github.com/FSillT/QCADesigner-E) pri commitu `3bc90302` v `engine/QCADesigner-E/`
@@ -32,7 +33,7 @@ in jo prevede skupaj z `engine/main_qca_sim.c`. Njenih datotek ne spreminjamo.
   ```bash
   sudo apt install git build-essential pkg-config libglib2.0-dev
   ```
-- Python 3 v sistemu Windows (samo standardna knjižnica).
+- Python 3 v sistemu Windows; simulacije in analiza potrebujejo samo standardno knjižnico, izris slik pa `matplotlib`.
 
 ## Ponovitev rezultatov
 
@@ -48,6 +49,12 @@ Posamezno:
 ```powershell
 python sweep.py all --seed 1 --rebuild    # removal | shift | all
 python analyze.py runs\<mapa_zagona>      # ponovna analiza zagona
+```
+
+Grafa za poročilo (postavitev vrat in valovne oblike so posnetki zaslona iz QCADesigner-E):
+
+```powershell
+python plot.py --summary runs\<zagon>\summary.csv --out img
 ```
 
 Vsak zagon se zapiše v novo mapo `runs\<datum>_<čas>_<vrsta>[_<ime>]\`:
